@@ -1,0 +1,136 @@
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: #0080ff;
+  color: white;
+}
+
+.toolbar img {
+  margin: 0 8px 0 16px;
+}
+
+.toolbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.align-spinner {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+.content {
+  margin-top: 10vh;
+}
+
+.divide {
+  display: flex;
+  /* float: left; */
+}
+
+.side1 {
+  width: 50%;
+  height: 90vh;
+  overflow: hidden;
+  color: black;
+  background-color: white;
+  padding: 24px 0 24px 24px;
+}
+
+.side2 {
+  width: 50%;
+  height: 90vh;
+  overflow: hidden;
+  background-color: whitesmoke;
+  color: #002f5e;
+  padding: 24px 0 24px 24px;
+}
+
+.side1 form {
+  display: inline;
+  margin-right: 16px;
+}
+
+.btn-search {
+  background-color: #0080ff;
+  margin-right: 16px;
+}
+
+.btn-create {
+  background-color: white;
+  color: #0080ff;
+  border: 1px solid #0080ff;
+}
+.side1 .example-full-width {
+  margin-right: 12px;
+}
+
+.divide .main {
+  display: flex;
+}
+.divide .main strong {
+  font-size: 1.1em;
+  margin-bottom: 12px;
+}
+.name {
+  width: 50%;
+}
+.name strong {
+  margin-bottom: 30px;
+}
+.list-head {
+  margin-top: 20px;
+}
+ol {
+  padding: 0;
+  padding-right: 24px;
+}
+.list {
+  padding: 20px;
+  color: #002f5e;
+  background: #8f8fc7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #72abd3,
+    #8f8fc7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #72abd3,
+    #8f8fc7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: 0 1px 0 0 #f3efef inset;
+}
+
+.list:hover {
+  background: #7d7dc9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #609fcc,
+    #8484c2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #609fcc,
+    #8484c2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  cursor: pointer;
+}
+.list .icon {
+  float: right;
+}
+.list .right {
+  float: right;
+  margin-right: 12px;
+  margin-top: -6px;
+}
+.edit-btn {
+  margin-right: 16px;
+}
